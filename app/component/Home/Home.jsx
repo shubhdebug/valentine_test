@@ -66,7 +66,7 @@ return (
 {step==="valentine"&&(
 <div className="text-center bg-pink-200 px-6 sm:px-12 md:px-20 lg:px-40 py-12 sm:py-16 rounded-3xl relative w-full max-w-3xl">
 
-<h1 className="text-3xl sm:text-4xl font-bold text-pink-600 mb-6">
+<h1 className="text-3xl sm:text-xl font-bold text-pink-600 mb-6">
 Will you be my Valentine? ❤️
 </h1>
 
@@ -89,9 +89,9 @@ No 😒
 {/* HAPPY */}
 {step==="happy"&&(
 <div className="bg-pink-200 p-6 sm:p-10 md:p-16 text-center rounded-3xl w-full max-w-3xl">
-
+<img src="/Images/img2.gif" className="mx-auto mb-4"/>
 <h1 className="text-3xl sm:text-5xl text-pink-600 font-bold">
-Happy Valentine Day Bestie!💖
+Happy Valentine Day Dear!💖
 </h1>
 
 <p className="mt-4 text-amber-950">
@@ -181,7 +181,7 @@ Next
 A Letter For You 🥺
 </h1>
 
-<div className="bg-yellow-100 p-6 sm:p-10 rounded-xl overflow-y-auto ">
+<div className="bg-yellow-100 p-6 sm:p-10 rounded-xl overflow-y-auto  ">
 <p className={`${quintessential.className} text-start text-amber-950`}>
 Dear Best Friend ❤️ <br/><br/>
 Dear Best Friend ❤️
@@ -196,7 +196,7 @@ Even without saying everything, my heart always knew how special you are to me. 
 
 No matter where life takes us, I will always cherish what we share — the chaos, the laughter, the emotional talks, and the silent understanding between us. Maybe we are not perfect, but we are us… and that has always been enough for me.
 
-Always yours ❤️
+<br /><span className="mt-10">Always yours ❤️</span>
 
 </p>
 </div>
@@ -216,9 +216,9 @@ Always yours ❤️
 
 <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
 
-{["p2.jpeg","p3.jpeg","p4.jpeg","p5.jpeg","p6.jpeg","p7.jpeg"].map((img,i)=>(
-<div key={i} className="bg-white p-3 shadow-lg rounded-lg">
-<img src={`/Images/${img}`} className="w-full h-60 object-cover rounded-lg"/>
+{["p2.jpeg","p3.jpeg","p4.jpeg","p5.jpeg","p6.jpeg","p7.jpeg","p9.jpeg","p10.jpeg","p11.jpeg","p12.jpeg","p13.jpeg","p14.jpeg"].map((img,i)=>(
+<div key={i} className="bg-white p-3 shadow-lg rounded-lg rotate-[2deg]">
+<img src={`/Images/${img}`} className="w-full h-full rotate-[2deg] object-cover "/>
 </div>
 ))}
 
