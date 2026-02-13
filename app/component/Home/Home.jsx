@@ -227,7 +227,7 @@ No matter where life takes us, I will always cherish what we share — the chaos
 <div className="flex justify-center gap-4 mt-6">
 <button onClick={goBack} className="bg-red-400 text-white px-6 py-2 rounded-full">← BACK</button>
 <button onClick={()=>goTo("forever")} className="bg-pink-500 text-white px-6 py-2 rounded-full">
-Next ❤️
+Finally ❤️
 </button>
 </div>
 
